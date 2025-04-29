@@ -18,25 +18,25 @@ cd client && npm start
 
 # More details on server and client apps -
 
-# Pokémon server API (Server Application)
+# Pokemon server API (Server Application)
 
-This is a backend application for retrieving Pokémon data. It provides an API to fetch information about various Pokémon, leveraging caching for performance.
+This is a backend application for retrieving Pokemon data. It provides an API to fetch information about various Pokemon, leveraging caching for performance.
 
 API Endpoints
 
 GET /api/pokemons
-Fetches a list of Pokémon.
+Fetches a list of Pokemon.
 
 Response:
 
-200 - Returns an array of Pokémon objects.
+200 - Returns an array of Pokemon objects.
 404 - No record found.
 500 - Internal Server Error.
 
 
 ## Features
 
-- Fetch Pokémon data from a third-party API. (pokeapi.co)
+- Fetch Pokemon data from a third-party API. (pokeapi.co)
 - Cache responses to reduce API calls and improve performance.
 - Comprehensive testing with Jest, including code coverage reports.
 
@@ -105,9 +105,9 @@ This is to start the server immediately after cleaning up the redis cache
 ----
 
 
-# Pokémon frontend Application (Client Application)
+# Pokemon frontend Application (Client Application)
 
-This is a frontend application for Bolttedex. It shows a list of Pokémon and you can see the pokemon details in a popup card on click of a pokemon from the list.
+This is a frontend application for Bolttedex. It shows a list of Pokemon and you can see the pokemon details in a popup card on click of a pokemon from the list.
 
 # App URL
 
