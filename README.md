@@ -26,14 +26,14 @@ This is a backend application for retrieving Pokémon data. It provides an API t
 
 API Endpoints
 
-GET /api/pokemons
-Fetches a list of Pokémon.
+GET /api/pokemons?limit=30&offset=0
+- Fetches a list of Pokémon.
 
 Response:
 
-200 - Returns an array of Pokémon objects.
-404 - No record found.
-500 - Internal Server Error.
+- 200 - Returns an array of Pokémon objects.
+- 404 - No record found.
+- 500 - Internal Server Error.
 
 
 ## Features
@@ -67,30 +67,30 @@ Response:
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/pokemon-api-backend.git
-   cd pokemon-api-backend
+   - git clone git clone https://github.com/jyotitripathi27/Bolttedex.git
+   - cd server
    
 2. Install the dependencies:
     
-   npm install
+   - npm install
 
 3. Running the Application:
 
-   npm start - for localhost
+   - npm start - for localhost
       - The server will run on http://localhost:5000 (or your specified port).
 
-   npm run start-dev - for development 
-   npm run start-prod - for production (make sure to include .env.prod file)
+   - npm run start-dev - for development 
+   - npm run start-prod - for production (make sure to include .env.prod file)
 
 4. Running Tests
 
-    npm test
+   - npm test
 
 5. Code Coverage - To generate a code coverage report along with tests, run:
 
-    npm run test:coverage
+   - npm run test:coverage
 
-    After running the command, you can find the coverage report in the coverage directory. Open index.html in your browser to view the detailed report.
+   After running the command, you can find the coverage report in the coverage directory. Open index.html in your browser to view the detailed report.
 
 
 # There are few other commands for development support -
