@@ -1,15 +1,13 @@
-# Steps to run web application :
+# Steps to run web this application :
 
 1) Clone the repo using below command -
 git clone https://github.com/jyotitripathi27/Bolttedex.git
 
-2) To run server application -
-cd server
-npm start
+2) To run server application, run below command from the root folder -
+cd server && npm start
 
-3) To run the frontend app -
-cd client
-npm start
+3) To run the frontend app, run below command from the root folder -
+cd client && npm start
 
 4) This will open the application on http://localhost:3000 on browser.
 
@@ -20,9 +18,9 @@ npm start
 
 # More details on server and client apps -
 
-# Pokémon server API (Server Application)
+# Pokemon server API (Server Application)
 
-This is a backend application for retrieving Pokémon data. It provides an API to fetch information about various Pokémon, leveraging caching for performance.
+This is a backend application for retrieving Pokemon data. It provides an API to fetch information about various Pokemon, leveraging caching for performance.
 
 API Endpoints
 
@@ -38,7 +36,7 @@ Response:
 
 ## Features
 
-- Fetch Pokémon data from a third-party API. (pokeapi.co)
+- Fetch Pokemon data from a third-party API. (pokeapi.co)
 - Cache responses to reduce API calls and improve performance.
 - Comprehensive testing with Jest, including code coverage reports.
 
@@ -107,9 +105,9 @@ This is to start the server immediately after cleaning up the redis cache
 ----
 
 
-# Pokémon frontend Application (Client Application)
+# Pokemon frontend Application (Client Application)
 
-This is a frontend application for Bolttedex. It shows a list of Pokémon and you can see the pokemon details in a popup card on click of a pokemon from the list.
+This is a frontend application for Bolttedex. It shows a list of Pokemon and you can see the pokemon details in a popup card on click of a pokemon from the list.
 
 # App URL
 
