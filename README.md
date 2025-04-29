@@ -96,7 +96,7 @@ Response:
 
 ### `npm run cleanup-redis`
 - This is to cleanup all records from redis cache - helping in testing
-   - To support this, I have created a script in the root folder - /redisCleanup.js
+   - To support this, I have created a script in the /server root folder - /redisCleanup.js
 
 ### `npm run clean-start`
 - This is to start the server immediately after cleaning up the redis cache
