@@ -1,4 +1,4 @@
-# Steps to run web application :
+# Steps to run web this application :
 
 1) Clone the repo using below command -
 git clone https://github.com/jyotitripathi27/Bolttedex.git
