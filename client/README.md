@@ -1,4 +1,4 @@
-# Pokémon server API
+# Pokémon frontned Application
 
 This is a frontend application for Bolttedex. It shows a list of Pokémon and you can see the pokemon details in a popup card on click of a pokemon from the list.
 
@@ -10,6 +10,8 @@ http://localhost:3000
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm i`
 
 ### `npm start`
 
