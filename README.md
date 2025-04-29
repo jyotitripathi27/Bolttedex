@@ -110,6 +110,12 @@ This is to start the server immediately after cleaning up the redis cache
 
 This is a frontend application for Bolttedex. It shows a list of Pokemon and you can see the pokemon details in a popup card on click of a pokemon from the list.
 
+![image](https://github.com/user-attachments/assets/7d86eee2-e583-402f-af0e-a9bb95efc561)
+
+![image](https://github.com/user-attachments/assets/b024889e-a5f4-4285-a6f4-a63d246057f9)
+
+
+
 # App URL
 
 http://localhost:3000
