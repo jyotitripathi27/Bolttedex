@@ -1,22 +1,22 @@
-# Pokémon server API
+# Pokemon server API
 
-This is a backend application for retrieving Pokémon data. It provides an API to fetch information about various Pokémon, leveraging caching for performance.
+This is a backend application for retrieving Pokemon data. It provides an API to fetch information about various Pokemon, leveraging caching for performance.
 
 API Endpoints
 
 GET /api/pokemons
-Fetches a list of Pokémon.
+Fetches a list of Pokemon.
 
 Response:
 
-200 - Returns an array of Pokémon objects.
+200 - Returns an array of Pokemon objects.
 404 - No record found.
 500 - Internal Server Error.
 
 
 ## Features
 
-- Fetch Pokémon data from a third-party API. (pokeapi.co)
+- Fetch Pokemon data from a third-party API. (pokeapi.co)
 - Cache responses to reduce API calls and improve performance.
 - Comprehensive testing with Jest, including code coverage reports.
 

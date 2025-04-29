@@ -25,11 +25,11 @@ This is a backend application for retrieving Pokemon data. It provides an API to
 API Endpoints
 
 GET /api/pokemons?limit=30&offset=0
-- Fetches a list of Pokémon.
+- Fetches a list of Pokemon.
 
 Response:
 
-- 200 - Returns an array of Pokémon objects.
+- 200 - Returns an array of Pokemon objects.
 - 404 - No record found.
 - 500 - Internal Server Error.
 
@@ -38,6 +38,7 @@ Response:
 
 - Fetch Pokemon data from a third-party API. (pokeapi.co)
 - Cache responses to reduce API calls and improve performance.
+   - TTL for each cache record is set to 1 day and can be changed using .env.local file
 - Comprehensive testing with Jest, including code coverage reports.
 
 ## Technologies Used
@@ -45,7 +46,7 @@ Response:
 - Node.js
 - Express
 - Jest for testing
-- Redis for caching (mocked in tests)
+- Redis for caching
 
 ## Getting Started
 

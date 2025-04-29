@@ -54,7 +54,7 @@ export const POKEDEX_TO_REGION_MAP = {
   // Kitakami
   'kitakami': 'Kitakami',
 
-  // Orre (from Pokémon Colosseum and XD)
+  // Orre (from Pokemon Colosseum and XD)
   'orre': 'Orre',
 
   'blueberry': 'Blueberry'

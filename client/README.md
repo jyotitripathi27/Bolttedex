@@ -1,6 +1,6 @@
-# Pokémon frontned Application
+# Pokemon frontned Application
 
-This is a frontend application for Bolttedex. It shows a list of Pokémon and you can see the pokemon details in a popup card on click of a pokemon from the list.
+This is a frontend application for Bolttedex. It shows a list of Pokemon and you can see the pokemon details in a popup card on click of a pokemon from the list.
 
 # App URL
 
