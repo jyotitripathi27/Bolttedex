@@ -132,6 +132,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+Note - you might see deprecation warnings related to webpack-dev-server, The warnings are caused by react-scripts using an older webpack-dev-server version. They are harmless and do not affect app functionality.
 
 ### `npm test`
 
@@ -142,4 +143,29 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### `npm run test:coverage`
 
 This will run test cases along with code coverage report.
+
+
+
+---- 
+
+### Techniques and Business logic explanation -
+
+# Frontend Application:
+
+- I chose React Query for server-state management.
+- Also, I used virtualization for Pokemon listing. Virtualization keeps the app fast and memory-efficient, and it's very lightweight.
+
+
+# Server Application:
+
+- To correctly calculate Pokemon weaknesses, I gathered information using the Pokemon Type API (https://pokeapi.co/api/v2/type/${type}). 
+- I checked each weakness against the resistances (both double_damage_to and half_damage_from), immunities (no_damage_from), and half damage (half_damage_from) before finalizing the weaknesses.
+- Removed any weakness that appears in any of the resistance or immunity sets.
+
+- To get Region for each Pokémon, Instead of rough guessing by Pokemon ID range, I am doing these steps:
+   - Call (https://pokeapi.co/api/v2/pokemon-species/${id})
+   - Get the pokedex_numbers
+   - Skip "national"
+   - Map to region
+
 
