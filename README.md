@@ -3,13 +3,11 @@
 1) Clone the repo using below command -
 git clone https://github.com/jyotitripathi27/Bolttedex.git
 
-2) To run server application -
-cd server
-npm start
+2) To run server application, run below command from the root folder -
+cd server && npm start
 
-3) To run the frontend app -
-cd client
-npm start
+3) To run the frontend app, run below command from the root folder -
+cd client && npm start
 
 4) This will open the application on http://localhost:3000 on browser.
 
